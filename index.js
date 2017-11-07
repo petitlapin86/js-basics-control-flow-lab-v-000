@@ -5,9 +5,9 @@ describe('index.js', function () {
       expect(scuberGreetingForFeet(199)).to.equal('This one is on me!');
     });
 
-    function scuberGreetingForFeet(feet) {
-      if (feet <=400){
+    function scuberGreetingForFeet (feet) {
+      if (feet <= 400){
         return 'This one is on me!';
       }
-        
+
   
